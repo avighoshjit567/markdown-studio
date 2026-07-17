@@ -326,6 +326,8 @@
   min-height: 0;
   display: grid;
   grid-template-rows: 38px minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
+  overflow: hidden;
   background: var(--surface);
 }
 
